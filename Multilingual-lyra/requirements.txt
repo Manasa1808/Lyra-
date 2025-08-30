@@ -1,0 +1,33 @@
+# ---- GUI ----
+PyQt5==5.15.9
+
+# ---- Speech Recognition / Audio ----
+SpeechRecognition==3.10.4
+openai-whisper==20231117
+sounddevice==0.4.7
+soundfile==0.12.1
+numpy==1.26.4
+pygame==2.6.1
+pyaudio==0.2.14   # needed for SpeechRecognition mic input
+
+# ---- Text-to-Speech ----
+gTTS==2.5.1
+pyttsx3==2.90
+
+# ---- NLP / Transformers ----
+transformers==4.55.4
+torch>=2.1.0
+sentencepiece==0.2.0
+langdetect==1.0.9
+
+# ---- System / Automation ----
+psutil==6.0.0
+pyautogui==0.9.54   # for screenshots + UI control
+
+# ---- Web & Parsing ----
+requests==2.32.3
+beautifulsoup4==4.12.3
+httpx>=0.25.0       # to avoid conflicts with transformers
+
+# ---- Optional but useful ----
+lxml>=4.9.3         # speeds up BeautifulSoup

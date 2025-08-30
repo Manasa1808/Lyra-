@@ -1,0 +1,25 @@
+QMainWindow {
+    background: #0f172a; /* slate-900 */
+    color: #e2e8f0;      /* slate-200 */
+}
+
+QTextEdit, QLineEdit, QComboBox {
+    background: #111827; /* gray-900 */
+    color: #e5e7eb;      /* gray-200 */
+    border: 1px solid #374151; /* gray-700 */
+    border-radius: 6px;
+    padding: 8px;
+    font-size: 14px;
+}
+
+QPushButton {
+    background: #1f2937; /* gray-800 */
+    color: #e5e7eb;
+    border: 1px solid #374151;
+    border-radius: 6px;
+    padding: 8px 12px;
+}
+
+QPushButton:hover {
+    background: #374151;
+}
